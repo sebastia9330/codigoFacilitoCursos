@@ -1,4 +1,4 @@
-import MenuItem from "./menu-item";
+import MenuItem from "./Menuitem/menu-item";
 
 function Menu() {
     return (

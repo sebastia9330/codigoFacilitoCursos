@@ -1,0 +1,21 @@
+.menu-item{
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+.menu-item a{
+    color: var(--menu-text-color);
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 40px;
+    transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+}
+
+.menu-item a:hover{
+    color: var(--menu-text-hover-color);
+}

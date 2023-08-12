@@ -1,21 +1,25 @@
 import logo from './logo.svg';
 import Menu from './components/menu';
+import Home from './components/Home/home';
 import './App.css';
+import Personajes from './components/personajes';
+import Episodios from './components/episodios';
+import Citas from './components/citas';
 
 function App() {
   const currentUrl = window.location.pathname
   function renderContent(){
     switch(currentUrl){
       case "/":
-        break;
+        return <Home/>
       case "/personajes":
-        break;
+        return <Personajes/>
       case "/episodios":
-        break;
+        return <Episodios/>
       case "/citas":
-        break;
+        return <Citas/>
       default:
-        break;
+        return <Home/>
     }
   }
   return (
