@@ -5,7 +5,7 @@ function Citas(){
     useEffect(function getQuotes(){
         fetch('https://pokeapi.co/api/v2/pokemon/ditto')
         .then(response => response.json())  // convertir a json
-        .then(data => setQuote(data.data))
+        .then(data => setQuote(data))
          //imprimir los datos en la consola
         
     },[])
